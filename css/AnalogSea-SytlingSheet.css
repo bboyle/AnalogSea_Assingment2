@@ -1,0 +1,74 @@
+body{
+	background-color: #3c8495;
+	box-sizing: border-box;
+}
+.logoClass{
+position: relative;
+text-align: center;	
+
+}
+
+img{
+	margin:auto;
+	height: 35px;
+	}
+.form-class{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	position: relative;
+	left: 600px;
+}
+h1{
+	text-align: center;
+}
+label{
+	display: block;
+	padding-left: 30px;
+	height: 40px;
+	font-weight: bold;
+	width: 320px;
+}
+input{
+	display: block;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 320px;
+	height: 40px;
+
+}
+
+
+button[type="submit"] {
+	color:white;
+	margin-top: 8px;
+	margin-left: 30px;
+	width: 320px;
+    height: 40px;
+    background-color: #68df68;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #0CB863;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+.login-link {
+	font-weight: bold;
+	font-size: 1em;
+	padding: 10px;
+	text-align: center;
+	color: white;
+
+}
+.form-class a{
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+	font-size: large;
+}
